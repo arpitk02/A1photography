@@ -1,0 +1,14 @@
+/*
+.revolution .tp-caption{
+  color:#000;
+}
+*/
+.navbar .navbar-nav > li > a{
+  font-size: 14px;
+}
+.revolution .tp-caption.large, div.tp-caption{
+  text-shadow: 2px 2px #222;
+}
+.navbar .navbar-nav > li > a {
+  text-shadow: 1px 1px #222;
+}
