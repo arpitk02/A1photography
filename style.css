@@ -1,5 +1,12 @@
-/*
+/*-------------------------------------------------------------------------------------
+Theme Name:	Lydia
+Theme URI: 	http://themes.iki-bir.com/lydia
+Version:	1.0.2
+Author:		elemis
+-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------
 [TABLE OF CONTENTS]
+
 	00. RESET
 	01. GENERAL
 	02. BUTTON
@@ -39,7 +46,7 @@
 	hover: #70aed2
 	headings: #3b3b3b
 	
-*/
+-------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 /*	00. RESET
 /*-----------------------------------------------------------------------------------*/
@@ -874,6 +881,12 @@ footer ul.circled li:before {
 .revolution {
     z-index: 998
 }
+@media (max-width: 767px){
+.tp-fullscreen-container {
+    height: 250px !important;
+}
+}
+
 .revolution.tp-banner-container {
 	z-index: 996;
 }
@@ -4413,7 +4426,7 @@ textarea {
 	}
 	.cbp-filter-container .cbp-filter-item:before,
 	.sticky-filter ul li:before {
-	    padding: 0 10px 0 10px;
+	    padding: 0 2px 0 2px;
 	}
 }
 
